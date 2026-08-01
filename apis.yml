@@ -1,22 +1,83 @@
 aid: stratasys
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stratasys.png
 name: Stratasys
-description: Stratasys is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Stratasys Ltd. (Nasdaq: SSYS) is a global leader in polymer additive
+  manufacturing (industrial 3D printing), headquartered in Rehovot, Israel and
+  Eden Prairie, Minnesota. Stratasys builds FDM, PolyJet, stereolithography (SLA),
+  selective absorption fusion (SAF) and powder-bed (P3) printing systems, the
+  materials that feed them, and the GrabCAD software platform that drives them.
+  Its developer surface is the GrabCAD ecosystem: GrabCAD Print / GrabCAD Print
+  Pro for job preparation, GrabCAD Control and GrabCAD Shop for fleet and shop
+  management, and the GrabCAD Software Development Kit — a partner program of
+  connectivity SDKs (Printer Connectivity SDK, MT Connect SDK, PLM SDK) that use
+  standard protocols and APIs to integrate Stratasys printers with ERP, PLM, MES
+  and smart-factory systems for automation, data collection and analytics.
 url: https://raw.githubusercontent.com/api-evangelist/stratasys/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
-x-tier: stub
+x-tier: profiled
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- 3D Printing
+- Additive Manufacturing
+- Manufacturing
+- Hardware
+- CAD
+- Industrial IoT
+- SDK
+- Smart Factory
+- MTConnect
 apis: []
+common:
+- type: Website
+  url: https://www.stratasys.com/
+- type: DeveloperPortal
+  url: https://grabcad.com/en/software-development-kit
+- type: SDK
+  url: https://grabcad.com/en/software-development-kit
+- type: Documentation
+  url: https://www.stratasys.com/en/software/
+- type: Support
+  url: https://support.stratasys.com/
+- type: HelpCenter
+  url: https://www.stratasys.com/en/support/
+- type: Blog
+  url: https://www.stratasys.com/en/resources/blog/
+- type: GitHubOrganization
+  url: https://github.com/GrabCAD
+- type: PrivacyPolicy
+  url: https://www.stratasys.com/en/legal/privacy-policy/
+- type: TermsOfService
+  url: https://www.stratasys.com/en/legal/website-terms-and-conditions/
+- type: Conformance
+  url: conformance/stratasys-conformance.yml
+- type: DomainSecurity
+  url: security/stratasys-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
